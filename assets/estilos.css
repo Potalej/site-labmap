@@ -1,0 +1,278 @@
+/************************************************
+> Fontes
+************************************************/
+@font-face {
+    font-family: blackhansans; /* Nao tem ç, ã, etc */
+    src: url(./fonts/BlackHanSans-Regular.woff2) format('woff2'),
+         url(./fonts/BlackHanSans-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: anton;
+    src: url(./fonts/Anton-Regular.woff2) format('woff2'),
+         url(./fonts/Anton-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: archivoblack;
+    src: url(./fonts/ArchivoBlack-Regular.woff2) format('woff2'),
+         url(./fonts/ArchivoBlack-Regular.woff) format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: ComicRelief;
+    src: url(./fonts/ComicRelief-Regular.woff2) format('woff2'),
+         url(./fonts/ComicRelief-Regular.woff) format('woff');
+    font-display: swap;
+}
+/************************************************
+< Fim de Fontes
+************************************************/
+
+/************************************************
+> Variaveis e configs globais
+************************************************/
+:root {
+    --fundo: #4d545c;;
+    --cor-secundaria: #1b232b;
+    
+    /* Fontes */
+    --texto-padrao-cor: #eee;
+    --texto-titulos-cor: #fff;
+    --cor-links: #bb8cd1;
+
+
+    --bg-main-color: #4d545c;
+
+    --fg-timestamp-color: #707880;
+    --fg-quote-color: #888888;
+
+    --fg-codeblock-color: var(--fg-main-color);
+    --bg-codeblock-color: #272822;
+    --fg-codeblock-url-color: #f92672;
+    --fg-codeinline-color: var(--fg-codeblock-color);
+    --bg-codeinline-color: #444b52;
+
+    --fg-anchor-normal-color: #bb8cd1;
+    --fg-anchor-hover-color: var(--fg-main-color);
+
+    --fg-footer-anchor-normal-color: var(--fg-main-color);
+    --fg-footer-anchor-hover-color: var(--fg-anchor-hover-color);
+
+    --nav-hover-fg-color: #676e75;
+    --nav-border-color: #888d93;
+    --nav-bg-color: #1b232b;
+
+    --border-color: #c5c8c6;
+    --secondary-border-color: #656565;
+
+}
+
+* {
+    color: var(--texto-padrao-cor);
+    /* font-family: ComicRelief, Arial, sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Liberation Sans", Arial, sans-serif;
+}
+
+body {
+    line-height: 1.75em;
+}
+
+/* Ancoras */
+body a {
+    color: var(--cor-links);
+}
+
+/* Fundo geral */
+body, main.page-content {
+    background-color: var(--fundo) !important;
+    color: var(--cor-texto-principal) !important;
+    padding: 0px;
+}
+main.page-content {
+    max-width: 50em;
+}
+
+header, footer {
+    background-color: var(--cor-secundaria);
+    border: 0.3em solid var(--nav-border-color);
+}
+
+footer {
+    padding: 15px 0px;
+}
+
+a             { text-decoration: underline; }
+a, a:visited  { color: var(--fg-anchor-normal-color) !important; }
+a:hover       { color: var(--fg-anchor-hover-color); text-decoration: none; }
+
+h1 { font-size:  1.5em !important; margin: 0.83em 0 !important; }
+h2 { font-size: 1.23em !important; margin:    1em 0 !important; }
+h3 { font-size:    1em !important; margin: 1.33em 0 !important; }
+h4 { font-size:  .83em !important; margin: 1.67em 0 !important; }
+h5 { font-size:  .67em !important; margin: 2.33em 0 !important; }
+h6 { font-size:  .51em !important; margin: 2.33em 0 !important; }
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--texto-titulos-cor) !important;
+    font-weight: bold !important;
+}
+
+.toc {
+  background: var(--bg-codeblock-color) none repeat scroll 0 0;
+  font-size: 100%;
+
+  list-style-type: none;
+  display: table;
+  display: block;
+  padding: 1px;
+  padding-top: 10px;
+  padding-right: 15px;
+  border: 1px solid var(--nav-hover-fg-color);
+}
+
+/* table style */
+
+/* in case legacy stuff is being bothersome */
+table, table * { font-size: inherit; }
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid var(--border-color);
+}
+
+th, td {
+  padding: 0.2em 0.4em;
+}
+
+th { 
+    text-align: center;
+    background-color: var(--cor-secundaria) !important;
+}
+
+tr {
+    background-color: transparent !important;
+}
+
+@media screen and (min-width: 50em) {
+  table { width: 90%; }
+}
+
+/************************************************
+< Fim de Variaveis e configs globais
+************************************************/
+
+.center {
+    position: center;
+    text-align: center;
+}
+
+figure.figure {
+    text-align: center;
+}
+img.hp-img {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  width: auto;
+  height: 12em;
+  padding: 10px;
+  object-fit: contain;
+}
+
+
+/* Usually code */
+code {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 90%;
+  font-style: normal;
+  background: var(--bg-codeinline-color) !important;
+  color: var(--fg-codeinline-color) !important;
+  padding: 0.08em 0.4em;
+  border-radius: 0.3em;
+  border-color: transparent !important;
+}
+
+pre code {
+  display: block;
+  max-height: 40em;
+  padding: 1em !important;
+  overflow: scroll;
+  line-height: 1.35em;
+  background: var(--bg-codeblock-color) !important;
+  scrollbar-width: none;
+}
+
+pre code::-webkit-scrollbar {
+  display: none;
+}
+
+pre {
+  border-radius: 0.7em;
+  padding: 0px !important;
+}
+
+a code {
+  color: var(--fg-codeblock-url-color);
+}
+
+/************************************************
+> Menu
+************************************************/
+.offcanvas {
+    background-color: var(--cor-secundaria) !important;
+}
+.offcanvas-header {
+    color: white;
+}
+.offcanvas button {
+    color: var(--cor-menu-contraido-header-texto) !important;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    font-family: Verdana;
+}
+.offcanvas-title {
+    font-size: 3vw !important;
+    color: white !important;
+}
+.offcanvas-title img {
+    height: 90px;
+}
+.offcanvas-body .navbar-nav {
+    margin-left: 0px;
+    gap: 10px;
+}
+.offcanvas-body .navbar-nav .nav-item {
+    font-size: medium;
+    padding: 5px;
+    margin: 0px;
+}
+.offcanvas-body .navbar-nav .nav-item:hover {
+    background-color: var(--fg-anchor-hover-color) !important;
+}
+.nav-item a {
+    color: white !important;
+}
+button.navbar-toggler {
+    filter: invert(100%);
+}
+nav.navbar-scrolled, nav.navbar-cor {
+    background-color: var(--cor-menu-fundo) !important;
+}
+nav.navbar-scrolled a, nav.navbar-cor a {
+    color: var(--cor-links) !important;
+}
+nav.navbar-cor button.navbar-toggler {
+    filter: unset;
+}
+
+/************************************************
+< Fim de menu
+************************************************/
