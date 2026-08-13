@@ -4,7 +4,13 @@ permalink: "/overleaf"
 layout: default
 ---
 
-O LabMAP possui uma instância local do **Overleaf** em teste, utilizada para edição de documentos em **LaTeX**.
+<div class="index-grid-item" markdown="1">
+# Overleaf LabMAP
+
+O LabMAP possui uma instância local do **Overleaf** em teste, utilizada para edição de documentos em **LaTeX**. <br> Esta funciona (praticamente) como a versão premium do Overleaf, mas é gratuita.
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ### 🔑 Criação de conta
 
@@ -18,6 +24,10 @@ Envie um e-mail para **[labmap@usp.br](mailto:labmap@usp.br)** com as seguintes 
 * **E-mail que será utilizado na conta**
 
 Após a criação da conta, você receberá instruções para definir sua senha e acessar a plataforma.
+
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ### 🌐 Acesso ao sistema
 
@@ -36,7 +46,9 @@ Após a criação da conta, você receberá instruções para definir sua senha 
 
 *Observação: Ao abrir a página, clique no botão azul **Visit site** se essa tela for exibida antes do login.*
 
----
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ### 🌐 Acesso ao sistema de forma direta (Avançado)
 
@@ -57,9 +69,13 @@ http://localhost:8080
 
 Isso redirecionará a porta local **8080** para o serviço disponível na porta **9700** do servidor remoto.
 
----
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ### ℹ️ Observações
 
 * O Overleaf ainda está em testes, por isso, recomendamos que salvem os arquivos (backup) localmente após o uso.
 * Caso tenha problemas para acessar ou utilizar a plataforma, entre em contato pelo e-mail **[labmap@usp.br](mailto:labmap@usp.br)**.
+
+</div>

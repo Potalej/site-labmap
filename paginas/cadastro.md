@@ -5,12 +5,15 @@ data: 2022-05-20
 permalink: "/cadastro"
 ---
 
+<div class="index-grid-item" markdown="1">
+# Cadastro
+
 Para se tornar um usuário do Laboratório de Matemática Aplicada (LabMAP) basta
 enviar um email para labmap@usp.br com as informações solicitadas abaixo. Seu
 cadastro será avaliado pelo seu coordenador/supervisor e pelo coordenador do
 LabMAP antes de ser aprovado. Você receberá um e-mail quando seu pedido for
 aprovado, instruindo que entre em contato com a administração do laboratório
-para marcar um dia para cadastro de impressão digital na porta da sala.
+para marcar um dia para liberação de sua carteirinha na porta da sala.
 
 Ressaltamos que para usar as máquinas do LabMAP é necessário ter uma conta na
 [Rede IME][1].
@@ -35,6 +38,9 @@ com elas acessar o laboratório ou suas máquinas!
 
 [1]: https://si.ime.usp.br/
 
+</div>
+
+<div class="index-grid-item" markdown="1">
 ## Regras de Uso do Laboratório
 
 1. O Laboratório de Informática, sala `257-A` e servidores, é de uso exclusivo
@@ -51,7 +57,7 @@ com elas acessar o laboratório ou suas máquinas!
 3. Os recursos do laboratório, inclusive acesso à internet, destinam-se apenas
    para fins acadêmicos.
 4. A utilização do laboratório é permitida apenas aos usuários autorizados.
-   Estes terão sua digital cadastrada na fechadura da porta. O laboratório deverá
+   Estes terão sua carteirinha liberada na fechadura da porta. O laboratório deverá
    permanecer trancado quando estiver vazio.
 5. O usuário é responsável por sua
    conta individual e por qualquer ação que se faça a partir dela.
@@ -64,3 +70,4 @@ com elas acessar o laboratório ou suas máquinas!
 
 O usuário declara ter pleno conhecimento das normas para a utilização do
 Laboratório.
+</div>

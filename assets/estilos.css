@@ -33,16 +33,18 @@
 > Variaveis e configs globais
 ************************************************/
 :root {
-    --fundo: #4d545c;;
-    --cor-secundaria: #1b232b;
+    /* --cor-secundaria: #1b232b; */
+    /* --cor-secundaria: #0a2b49; */
+    --cor-secundaria: #24282e;
     
     /* Fontes */
     --texto-padrao-cor: #eee;
     --texto-titulos-cor: #fff;
-    --cor-links: #bb8cd1;
 
-
-    --bg-main-color: #4d545c;
+    /* --bg-main-color: #4d545c; */
+    /* --bg-main-color: #fff; */
+    /* --bg-main-color: #b9b1db; */
+    --bg-main-color: #b1d1db;
 
     --fg-timestamp-color: #707880;
     --fg-quote-color: #888888;
@@ -53,7 +55,7 @@
     --fg-codeinline-color: var(--fg-codeblock-color);
     --bg-codeinline-color: #444b52;
 
-    --fg-anchor-normal-color: #bb8cd1;
+    --fg-anchor-normal-color: #8cb2d1;
     --fg-anchor-hover-color: var(--fg-main-color);
 
     --fg-footer-anchor-normal-color: var(--fg-main-color);
@@ -81,17 +83,18 @@ body {
 
 /* Ancoras */
 body a {
-    color: var(--cor-links);
+    color: var(--fg-anchor-normal-color);
 }
 
 /* Fundo geral */
 body, main.page-content {
-    background-color: var(--fundo) !important;
+    background-color: var(--bg-main-color) !important;
     color: var(--cor-texto-principal) !important;
     padding: 0px;
 }
 main.page-content {
-    max-width: 50em;
+    /* max-width: 50em; */
+    max-width: 75em;
 }
 
 header, footer {
@@ -267,7 +270,7 @@ nav.navbar-scrolled, nav.navbar-cor {
     background-color: var(--cor-menu-fundo) !important;
 }
 nav.navbar-scrolled a, nav.navbar-cor a {
-    color: var(--cor-links) !important;
+    color: var(--fg-anchor-normal-color) !important;
 }
 nav.navbar-cor button.navbar-toggler {
     filter: unset;
@@ -276,3 +279,24 @@ nav.navbar-cor button.navbar-toggler {
 /************************************************
 < Fim de menu
 ************************************************/
+
+
+
+
+.espacador {
+    height: 10px;
+}
+
+
+.index-grid {
+}
+
+.index-grid-item {
+    border: 1px solid var(--secondary-border-color);
+    background-color: var(--cor-secundaria);
+    padding: 10px 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px;
+}

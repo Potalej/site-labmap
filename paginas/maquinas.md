@@ -5,6 +5,12 @@ data: 2022-05-18
 permalink: "/maquinas"
 ---
 
+<div class="index-grid-item" markdown="1">
+
+# Máquinas
+
+### Máquinas com Linux
+
 O LabMAP possui cinco máquinas locais:
 
 | Máquina       | Processador                 | Memória | Disco &nbsp;&nbsp;&nbsp; | /storage |
@@ -24,6 +30,12 @@ Para o acesso por SSH a essas máquinas é necessário um cadastro específico.
 Se você já é usuário do LabMAP e não consegue se conectar a essas máquinas por SSH, isso pode
 significar que sua conta ainda não possui acesso. Nesse caso envie um e-mail para [labmap@usp.br](mailto:labmap@usp.br) relatando o seu problema. 
 
+</div>
+
+<div class="index-grid-item" markdown="1">
+
+### Máquinas com Windows
+
 Além disso, também há duas máquinas com Windows instalado, porém sem acesso
 por SSH: 
 
@@ -35,6 +47,12 @@ por SSH:
 A máquina patinho01 usa Windows 10 e a patinho 02 utiliza Windows 11.
 Para usá-las presencialmente, solicite a criação de uma conta entrando 
 em contato com a administração do LabMAP.
+
+</div>
+
+<div class="index-grid-item" markdown="1">
+
+## Servidores Numéricos
 
 Além das máquinas listadas acima, o LabMAP conta com três máquinas que pertencem
 à Rede IME e quatro servidores numéricos dedicados a pesquisa que requer
@@ -52,7 +70,7 @@ São eles:
 
 [rime]: https://si.ime.usp.br/
 
-## Acesso aos Servidores Numéricos
+### Acesso
 
 Antes de ter acesso aos servidores numéricos, é necessário solicitar uma conta
 na máquina que pretende utilizar. Para tal, envie uma mensagem com o assunto
@@ -72,3 +90,4 @@ ssh pascoal@ime.usp.br
 # Acessando a Ybytu de dentro da Rede IME.
 ssh pspacoal@ybytu
 ```
+</div>

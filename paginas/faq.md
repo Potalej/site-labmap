@@ -5,6 +5,9 @@ data: 2020-05-06T01:16:16-03:00
 permalink: "/faq"
 ---
 
+<div class="index-grid-item" markdown="1">
+# FAQ
+
 <div class="toc" markdown="1">
 
 - [Como posso alterar minha senha de usuário?](#como-posso-alterar-minha-senha-de-usuário)
@@ -13,12 +16,13 @@ permalink: "/faq"
 - [Como faço para transferir arquivos entre meu computador e uma máquina do laboratório?](#como-faço-para-transferir-arquivos-entre-meu-computador-e-uma-máquina-do-laboratório)
 - [Como posso deixar um programa rodando ininterruptamente?](#como-posso-deixar-um-programa-rodando-ininterruptamente)
   - [Mas como faço para encerrar a execução do programa?](#mas-como-faço-para-encerrar-a-execução-do-programa)
-  - [Usei o `nohup` mas nada está sendo impresso no arquivo de saída!](#usei-o-nohup-mas-nada-está-sendo-impresso-no-arquivo-de-saída)
-  - [O que faço se já comecei executar o programa, mas preciso encerrar minha sessão?](#o-que-faço-se-já-comecei-executar-o-programa-mas-preciso-encerrar-minha-sessão)
+  - [Usei o `nohup` mas nada está sendo impresso no arquivo de saída!](#usei-o-nohup-mas-nada-esta-sendo-impresso-no-arquivo-de-saída)
+  - [O que faço se já comecei executar o programa, mas preciso encerrar minha sessão?](#o-que-faco-se-ja-comecei-a-executar-o-programa-mas-preciso-encerrar-minha-sessao)
 
 </div>
+</div>
 
----
+<div class="index-grid-item" markdown="1">
 
 ## Como posso alterar minha senha de usuário? 
 
@@ -29,7 +33,9 @@ O programa pedirá sua senha atual e que digite uma senha nova duas vezes. Se
 todos os campos forem preenchidos corretamente --- o programa avisará caso
 contrário ---, sua senha foi alterada.
 
----
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ## Como posso acessar os servidores do laboratório?
 
@@ -71,7 +77,9 @@ ssh-copy-id cfd01
 
 [sshkey]: https://www.ssh.com/ssh/keygen/
 
----
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ## Como faço para transferir arquivos entre meu computador e uma máquina do laboratório?
 
@@ -101,7 +109,9 @@ como alternativa ao `rsync`.
 [rsync]: https://wiki.archlinux.org/title/Rsync#As_cp/mv_alternative
 [scp]: https://wiki.archlinux.org/title/SCP_and_SFTP#Secure_copy_protocol_(SCP)
 
----
+</div>
+
+<div class="index-grid-item" markdown="1">
 
 ## Como posso deixar um programa rodando ininterruptamente?
 
@@ -164,7 +174,7 @@ stdbuf -o0 nohup programa > saida.out &
 
 ---
 
-### O que faço se já comecei executar o programa, mas preciso encerrar minha sessão?
+### O que faço se já comecei executar o programa, mas preciso encerrar minha sessão? {:# teste}
 
 Primeiro, se o programa não estiver rodando em plano de fundo, pause-o com `ctrl-z`. 
 
@@ -186,3 +196,5 @@ Caso a saída não esteja redirecionada, há duas opções:
 Pronto! Agora você já pode sair da sua sessão sem mais problemas. 
 
 [reredirect]: https://github.com/jerome-pouiller/reredirect/
+
+</div>
