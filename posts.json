@@ -1,0 +1,15 @@
+---
+layout: null
+---
+
+[
+  {% for post in site.posts %}
+    {
+      "titulo"    : "{{ post.titulo }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "data"     : "{{ post.data | date: '%d/%m/%Y' }}",
+      "autoria"     : "{{ post.autoria }}",
+      "resumo" : "{{ post.resumo | strip_html | strip_newlines | escape }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

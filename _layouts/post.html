@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="index-grid-item">
+    <a href="{{ site.url }}/tutoriais">
+        < Voltar para tutoriais
+    </a>
+
+    <h1>{{ page.titulo }}</h1>
+    <div class="tutorial-infos">
+        <div class="tutorial-infos-data">{{ page.data | date: "%-d/%m/%Y" }}</div>
+        <div class="tutorial-infos-autoria">por {{ page.autoria }}</div>
+    </div>
+    <br>
+    {{ content }}
+</div>

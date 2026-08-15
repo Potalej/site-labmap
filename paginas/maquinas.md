@@ -91,3 +91,14 @@ ssh pascoal@ime.usp.br
 ssh pspacoal@ybytu
 ```
 </div>
+
+<div class="index-grid-item center d-flex flex-row" markdown="1">
+<figure class="figure">
+    <img class="hp-img" src="{{ site.url }}/img/labmap-cluster.jpg">
+    <figcaption>Protótipo de Cluster</figcaption>
+</figure>
+<figure class="figure">
+    <img class="hp-img" src="{{ site.url }}/img/labmap-servnum.jpg">
+    <figcaption>Servidores Numéricos</figcaption>
+</figure>
+</div>
