@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/site-labmap/feed.xml" rel="self" type="application/atom+xml" /><link href="/site-labmap/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-08-15T01:06:07+00:00</updated><id>/site-labmap/feed.xml</id><title type="html">Laboratório de Matemática Aplicada</title><entry><title type="html">Introducao Ao Git</title><link href="/site-labmap/tutoriais/introducao-ao-git/" rel="alternate" type="text/html" title="Introducao Ao Git" /><published>2026-08-12T00:00:00+00:00</published><updated>2026-08-12T00:00:00+00:00</updated><id>/site-labmap/tutoriais/introducao-ao-git</id><content type="html" xml:base="/site-labmap/tutoriais/introducao-ao-git/"><![CDATA[<p>Seja bem vindo à inicialização ao GitHub, aqui serão apresentados os primeiros passos, para que possa ser possível disponibilizar publicamente um código que foi feito na sua Iniciação Científica / Mestrado / Doutorado / Publicações.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-br"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/site-labmap/feed.xml" rel="self" type="application/atom+xml" /><link href="/site-labmap/" rel="alternate" type="text/html" hreflang="pt-br" /><updated>2026-08-15T01:09:10+00:00</updated><id>/site-labmap/feed.xml</id><title type="html">Laboratório de Matemática Aplicada</title><entry><title type="html">Introducao Ao Git</title><link href="/site-labmap/tutoriais/introducao-ao-git/" rel="alternate" type="text/html" title="Introducao Ao Git" /><published>2026-08-12T00:00:00+00:00</published><updated>2026-08-12T00:00:00+00:00</updated><id>/site-labmap/tutoriais/introducao-ao-git</id><content type="html" xml:base="/site-labmap/tutoriais/introducao-ao-git/"><![CDATA[<p>Seja bem vindo à inicialização ao GitHub, aqui serão apresentados os primeiros passos, para que possa ser possível disponibilizar publicamente um código que foi feito na sua Iniciação Científica / Mestrado / Doutorado / Publicações.</p>
 
 <p>Para podermos darmos esses primeiros passos, será necessário que já tenha ao menos a conta criada, para isso, entre no site do <a href="https://github.com/?locale=pt-br">GitHub</a>. E clicar para crair conta, que pedirá um emial de referência, como o e-mail institucional não existirá para sempre caso saia um dia da universidade, recomendamos que crie com e-mail pessoal, ou caso queira mudar acesse o seguinte link (“aqui disponibilizar como mudar o email de entrada no GitHub Setting -&gt; email -&gt; add email -&gt; mudar esse novo email para principal”)</p>
 
@@ -7,13 +7,13 @@
 <h2 id="como-criar-um-repositório">Como criar um repositório</h2>
 <p>Entre em sua conta , onde no canto superior esquerdi da tela aparecerá a seguinte extrutura:</p>
 
-<p><img src="/img/tutoriais/introducao-ao-git/entrada_github.png" alt="" /></p>
+<p><img src="/site-labmap/img/tutoriais/introducao-ao-git/entrada_github.png" alt="" /></p>
 
 <p>Esse item que está marcado, será na figura acima, voceê terá uma visualização de todo o ser perfil e toda a sua atividade, mas vamos deixar essa descrição apra depois. Como queremos criar um repositório, clique no segundo item escrito Repositories(Repositórios).</p>
 
 <p>Nessa aba, podemos ter a visão geral de todos os repositórios que criamos, sendo que na parte superior dessa página, teremos a seguinte estrutura:</p>
 
-<p><img src="/img/tutoriais/introducao-ao-git/aba_repositorio.png" alt="" /></p>
+<p><img src="/site-labmap/img/tutoriais/introducao-ao-git/aba_repositorio.png" alt="" /></p>
 
 <p>Com isso, para criarmos um novo repositório clicamos no botão verde, escrito New (Novo) onde abrirá uma página com as configurações gerais do repositório que queremos criar.</p>
 
@@ -44,7 +44,7 @@
 <h3 id="primeiro-caso">Primeiro caso</h3>
 <p>Dentro desse primeiro caso, temos um problema mais simples pois temos que fazer somente uma clonagem do nosso repositório recem-criado, para nossa máquina. Para isso teremos que entrar no terminal(Linux: <strong>Ctrl+Alt+T</strong> / Windows: <strong>Win+R</strong> depois <strong>Enter</strong>). E abrirá a seguinte página:</p>
 
-<p><img src="/img/tutoriais/introducao-ao-git/terminal.png" alt="" /></p>
+<p><img src="/site-labmap/img/tutoriais/introducao-ao-git/terminal.png" alt="" /></p>
 
 <p>No terminal iremos para a pasta que queremos clonar, geralmente, inicialmente pode ser feita na área de trabalho do computados. Para isso, ao entrar no terminal digite:</p>
 
@@ -78,11 +78,11 @@ git remote add origin [URL do repositório]
 
 <p>Um dúvida que pode surgir é, onde eu encontro essa <code class="language-plaintext highlighter-rouge">URL</code>? E ela pode ser obtida entrando no seu repositório e clicando no botão verde escrito Code&lt;&gt;, como mostrado na seguinte figura:</p>
 
-<p><img src="/img/tutoriais/introducao-ao-git/url_repositorio.png" alt="" /></p>
+<p><img src="/site-labmap/img/tutoriais/introducao-ao-git/url_repositorio.png" alt="" /></p>
 
 <p>Com isso ele gerará algumas possibilidades, para esse início clique em <code class="language-plaintext highlighter-rouge">HTML</code>, como mostrado na seguinte figura:</p>
 
-<p><img src="/img/tutoriais/introducao-ao-git/copy_url.png" alt="" /></p>
+<p><img src="/site-labmap/img/tutoriais/introducao-ao-git/copy_url.png" alt="" /></p>
 
 <p>Feito isso podemos seguir o processo de fazer os commit que virá a seguir.</p>
 
