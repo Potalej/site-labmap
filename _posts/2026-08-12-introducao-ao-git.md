@@ -18,13 +18,13 @@ Criada a conta podemos seguir. E para que possamos adicionar nosso projeto ao Gi
 ## Como criar um repositório
 Entre em sua conta , onde no canto superior esquerdi da tela aparecerá a seguinte extrutura:
 
-![]({{site.url}}/img/tutoriais/{{page.slug}}/entrada_github.png)
+![]({{site.baseurl}}/img/tutoriais/{{page.slug}}/entrada_github.png)
 
 Esse item que está marcado, será na figura acima, voceê terá uma visualização de todo o ser perfil e toda a sua atividade, mas vamos deixar essa descrição apra depois. Como queremos criar um repositório, clique no segundo item escrito Repositories(Repositórios).
 
 Nessa aba, podemos ter a visão geral de todos os repositórios que criamos, sendo que na parte superior dessa página, teremos a seguinte estrutura:
 
-![]({{site.url}}/img/tutoriais/{{page.slug}}/aba_repositorio.png)
+![]({{site.baseurl}}/img/tutoriais/{{page.slug}}/aba_repositorio.png)
 
 Com isso, para criarmos um novo repositório clicamos no botão verde, escrito New (Novo) onde abrirá uma página com as configurações gerais do repositório que queremos criar. 
 
@@ -46,7 +46,7 @@ Teremos nessa parte duas possibilidades que trabalharemos separadamente, caso s�
 ### Primeiro caso
 Dentro desse primeiro caso, temos um problema mais simples pois temos que fazer somente uma clonagem do nosso repositório recem-criado, para nossa máquina. Para isso teremos que entrar no terminal(Linux: **Ctrl+Alt+T** / Windows: **Win+R** depois **Enter**). E abrirá a seguinte página:
 
-![]({{site.url}}/img/tutoriais/{{page.slug}}/terminal.png)
+![]({{site.baseurl}}/img/tutoriais/{{page.slug}}/terminal.png)
 
 No terminal iremos para a pasta que queremos clonar, geralmente, inicialmente pode ser feita na área de trabalho do computados. Para isso, ao entrar no terminal digite:
 
@@ -76,11 +76,11 @@ Para isso, pelo terminal, entre na pasta em que se deseja fazer o commit dos arq
 
 Um dúvida que pode surgir é, onde eu encontro essa `URL`? E ela pode ser obtida entrando no seu repositório e clicando no botão verde escrito Code<>, como mostrado na seguinte figura:
 
-![]({{site.url}}/img/tutoriais/{{page.slug}}/url_repositorio.png)
+![]({{site.baseurl}}/img/tutoriais/{{page.slug}}/url_repositorio.png)
 
 Com isso ele gerará algumas possibilidades, para esse início clique em `HTML`, como mostrado na seguinte figura:
 
-![]({{site.url}}/img/tutoriais/{{page.slug}}/copy_url.png)
+![]({{site.baseurl}}/img/tutoriais/{{page.slug}}/copy_url.png)
 
 Feito isso podemos seguir o processo de fazer os commit que virá a seguir. 
 

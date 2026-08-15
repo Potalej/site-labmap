@@ -94,11 +94,11 @@ ssh pspacoal@ybytu
 
 <div class="index-grid-item center d-flex flex-row" markdown="1">
 <figure class="figure">
-    <img class="hp-img" src="{{ site.url }}/img/labmap-cluster.jpg">
+    <img class="hp-img" src="{{ site.baseurl }}/img/labmap-cluster.jpg">
     <figcaption>Protótipo de Cluster</figcaption>
 </figure>
 <figure class="figure">
-    <img class="hp-img" src="{{ site.url }}/img/labmap-servnum.jpg">
+    <img class="hp-img" src="{{ site.baseurl }}/img/labmap-servnum.jpg">
     <figcaption>Servidores Numéricos</figcaption>
 </figure>
 </div>
