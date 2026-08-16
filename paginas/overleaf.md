@@ -35,11 +35,13 @@ Após a criação da conta, você receberá instruções para definir sua senha 
 
 <p style="text-align:center; margin-top:20px;">
   <a href="https://vistaless-regan-noncatalytically.ngrok-free.dev/login" 
-     style="background:#2c7be5; color:white !important; padding:12px 20px; text-decoration:none; border-radius:6px; font-weight:bold; display:inline-block; margin: 5px;">
+     class="btn"
+     style="background: #2c7be5">
      Acesso Principal
   </a>
   <a href="https://hypnoses-stank-imitation.ngrok-free.dev/login" 
-     style="background:#f5a623; color:white !important; padding:12px 20px; text-decoration:none; border-radius:6px; font-weight:bold; display:inline-block; margin: 5px;">
+     class="btn"
+     style="background: #f5a623">
      Acesso Reserva
   </a>
 </p>

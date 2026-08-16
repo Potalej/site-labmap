@@ -23,6 +23,11 @@ a {
     color: var(--fg-anchor-normal-color) !important;
     text-decoration: underline;
 }
+a.btn {
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 15px;
+}
 a:visited {
     color: var(--fg-anchor-normal-color) !important;
 }
@@ -168,6 +173,10 @@ pre {
 
 a code {
   color: var(--fg-codeblock-url-color);
+}
+
+blockquote * {
+    font-size: 1rem !important;
 }
 
 /************************************************
