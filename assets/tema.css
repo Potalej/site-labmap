@@ -5,6 +5,10 @@
     /* Fontes */
     --texto-padrao-cor: #eee;
     --texto-titulos-cor: #fff;
+    
+    --texto-padrao-fonte: ComicRelief, Arial, sans-serif;
+    /* --texto-padrao-fonte: Verdana, Geneva, Tahoma, sans-serif; */
+    /* --texto-padrao-fonte: "Liberation Sans", Arial, sans-serif; */
 
     --bg-main-color: #4d545c;
     /* --bg-main-color: #fff; */
@@ -21,7 +25,7 @@
     --bg-codeinline-color: #444b52;
 
     --fg-anchor-normal-color: #8cb2d1;
-    --fg-anchor-hover-color: var(--fg-main-color);
+    --fg-anchor-hover-color: #bb8cd1;
 
     --fg-footer-anchor-normal-color: var(--fg-main-color);
     --fg-footer-anchor-hover-color: var(--fg-anchor-hover-color);
