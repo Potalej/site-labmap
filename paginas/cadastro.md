@@ -5,7 +5,7 @@ data: 2022-05-20
 permalink: "/cadastro"
 ---
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 # Cadastro
 
 Para se tornar um usuário do Laboratório de Matemática Aplicada (LabMAP) basta
@@ -40,7 +40,7 @@ com elas acessar o laboratório ou suas máquinas!
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 ## Regras de Uso do Laboratório
 
 1. O Laboratório de Informática, sala `257-A` e servidores, é de uso exclusivo

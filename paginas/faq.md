@@ -5,7 +5,7 @@ data: 2020-05-06T01:16:16-03:00
 permalink: "/faq"
 ---
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 # FAQ
 
 <div class="toc" markdown="1">
@@ -22,7 +22,7 @@ permalink: "/faq"
 </div>
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ## Como posso alterar minha senha de usuário? 
 
@@ -35,7 +35,7 @@ contrário ---, sua senha foi alterada.
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ## Como posso acessar os servidores do laboratório?
 
@@ -79,7 +79,7 @@ ssh-copy-id cfd01
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ## Como faço para transferir arquivos entre meu computador e uma máquina do laboratório?
 
@@ -111,7 +111,7 @@ como alternativa ao `rsync`.
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ## Como posso deixar um programa rodando ininterruptamente?
 

@@ -4,13 +4,13 @@ permalink: "/overleaf"
 layout: default
 ---
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 # Overleaf LabMAP
 
 O LabMAP possui uma instância local do **Overleaf** em teste, utilizada para edição de documentos em **LaTeX**. <br> Esta funciona (praticamente) como a versão premium do Overleaf, mas é gratuita.
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ### 🔑 Criação de conta
 
@@ -27,7 +27,7 @@ Após a criação da conta, você receberá instruções para definir sua senha 
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ### 🌐 Acesso ao sistema
 
@@ -48,7 +48,7 @@ Após a criação da conta, você receberá instruções para definir sua senha 
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ### 🌐 Acesso ao sistema de forma direta (Avançado)
 
@@ -71,7 +71,7 @@ Isso redirecionará a porta local **8080** para o serviço disponível na porta 
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ### ℹ️ Observações
 

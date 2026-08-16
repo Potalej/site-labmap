@@ -5,7 +5,7 @@ data: 2022-05-18
 permalink: "/maquinas"
 ---
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 # Máquinas
 
@@ -32,7 +32,7 @@ significar que sua conta ainda não possui acesso. Nesse caso envie um e-mail pa
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ### Máquinas com Windows
 
@@ -50,7 +50,7 @@ em contato com a administração do LabMAP.
 
 </div>
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 
 ## Servidores Numéricos
 
@@ -92,7 +92,7 @@ ssh pspacoal@ybytu
 ```
 </div>
 
-<div class="index-grid-item center d-flex flex-row" markdown="1">
+<div class="caixa center d-flex flex-row" markdown="1">
 <figure class="figure">
     <img class="hp-img" src="{{ site.baseurl }}/img/labmap-cluster.jpg">
     <figcaption>Protótipo de Cluster</figcaption>

@@ -4,7 +4,7 @@ permalink: "/tutoriais"
 layout: default
 ---
 
-<div class="index-grid-item" markdown="1">
+<div class="caixa" markdown="1">
 # Tutoriais
 
 Visando facilitar o acesso à informações que MAPianos precisam buscar com alguma frequência, elaboramos alguns tutoriais.
