@@ -264,7 +264,6 @@ nav.navbar-cor button.navbar-toggler {
 
 .tutoriais-item div {
     border: 1px solid var(--border-color);
-    border-radius: 7px;
     padding: 10px;
     transition: .2s;
 }
@@ -273,6 +272,10 @@ nav.navbar-cor button.navbar-toggler {
 }
 .tutoriais-item:hover {
     text-decoration: none;
+}
+.tutorial-autoria {
+    font-style: italic;
+    font-size: 90%;
 }
 
 /************************************************
